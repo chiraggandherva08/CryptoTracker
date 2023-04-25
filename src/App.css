@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background: linear-gradient(135deg, rgb(42, 42, 255), rgb(147, 58, 255), rgb(247, 102, 255));
+
+  height: 100vh;
+  width: 100vw;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  font-family: 'Work Sans', sans-serif;
+
+  width: calc(100vw - 20px);
+  height: calc(100vh - 20px);
+
+  background: #000000;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  transform: translateX(-50%) translateY(-50%);
+
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.coin-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 40px;
+  width: 350px;
+
+  border-radius: 25px;
+
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+
+  background: linear-gradient(45deg, rgb(42, 42, 255), rgb(147, 58, 255), rgb(247, 102, 255));
+}
+
+.coin-search input {
+  width: 347px;
+  height: 37px;
+
+  border-radius: 30px;
+
+  text-align: center;
+
+  background: #000000;
+  color: white;
+
+  outline: 0;
+  border-style: none;
+
+  font-size: 1em;
+}
